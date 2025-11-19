@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Méteo du jour</title>
+		<link rel="stylesheet" href="application.css" >
+		<script type="module" src="application.js" defer></script>
+	</head>
+	<body>
+		<header class="headermeteo">
+			<nav>
+                <ul>
+                    <li><a href="index.html">Suivez votre méteo quotidiennement enfin d'eviter les surprises.</a></li>
+                </ul>
+            </nav>
+		</header>
+		<main> 
+        <section class="sectionbtn">
+            <form>
+                <label for="meteo">afficher météo du jour</label>
+                <input type="text"  name="meteo" id="meteo" placeholder="Choisiser une ville" required ></input>
+				<button type="submit" class="bouton">envoyer</button>
+            </form>
+        </section>
+		<section class="resultatmeteo">
+			<h3>resultat du météo:</h3>
+			<div id="affichagemeteo"></div>
+		</section>
+		<section>
+			<article class="articlesgenerales">
+				<div>
+					<p class="instruction">Pour afficher la méteo veuillez entrer le nom d'une ville </p>
+				</div>
+				<div class="instruction">
+					<p>La ville que vous allez mettre dans le champ vous donnera la description</p>
+					<p>de la météo actuelle dans cette ville ainsi que la température en degré Celsius</p>
+				</div>
+			</article>
+		</section> 
+		</main>
+	</body>
+</html>
