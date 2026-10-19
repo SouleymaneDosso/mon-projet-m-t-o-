@@ -93,7 +93,7 @@ main {
     border: 2px solid #21cbf3;
     border-radius: 10px;
     outline: none;
-    font-size: 1em;
+    font-size: 16px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -170,7 +170,7 @@ main {
     }
 
     .sectionbtn input {
-        font-size: 0.95em;
+        font-size: 16px;
     }
 }
 
